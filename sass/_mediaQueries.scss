@@ -7,7 +7,7 @@
 	}
 	
 	@for $i from 1 through 12 {
-		.col-xlg-offest-#{$i} {
+		.col-xlg-offset-#{$i} {
 			margin-left: (100%/12)*$i;
 		}
 	}
@@ -22,7 +22,7 @@
 	}
 	
 	@for $i from 1 through 12 {
-		.col-lg-offest-#{$i} {
+		.col-lg-offset-#{$i} {
 			margin-left: (100%/12)*$i;
 		}
 	}
@@ -37,7 +37,7 @@
 	}
 	
 	@for $i from 1 through 12 {
-		.col-md-offest-#{$i} {
+		.col-md-offset-#{$i} {
 			margin-left: (100%/12)*$i;
 		}
 	}
@@ -52,7 +52,7 @@
 	}
 	
 	@for $i from 1 through 12 {
-		.col-sm-offest-#{$i} {
+		.col-sm-offset-#{$i} {
 			margin-left: (100%/12)*$i;
 		}
 	}
@@ -67,7 +67,7 @@
 	}
 	
 	@for $i from 1 through 12 {
-		.col-xs-offest-#{$i} {
+		.col-xs-offset-#{$i} {
 			margin-left: (100%/12)*$i;
 		}
 	}
