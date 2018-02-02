@@ -1,3 +1,6 @@
+@import '_layout';
+@import '_mediaQueries';
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,4 +26,35 @@ time, mark, audio, video {
 	box-sizing: border-box;
 }
 
+body {
+	font-family: 'Helvetica', 'Roboto', 'sans-serif';
+	font-size: 1em;
+}
+
+.header {
+	width: 100%;
+
+	ul {
+		text-align: right;
+		li {
+			display: inline;
+
+			a{
+				text-decoration: none;
+				margin: 12px;
+			}
+		}
+	}
+}
+
+.cta {
+	background: linear-gradient(to right, #4f719a, #476488);
+	padding: 16px 24px;
+	color: white;
+	border-radius: 4px;
+	&:hover {
+		box-shadow: 10px 10px 22px rgba(0,0,0,0.2);
+	}
+	transition: all 100ms ease-in;
+}
 
