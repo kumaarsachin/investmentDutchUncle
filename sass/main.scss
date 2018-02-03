@@ -151,9 +151,24 @@ $brandBlue: #476488;
 }
 
 .services {
+	.card {
+		padding: 20px;
+		border-radius: $borderRadius;
+		text-align: center;
+		background-color: rgba($brandBlue,0.3);
+	}
+
 	h1 {
 		color: #353535;
 		text-align: center;
+	}
+
+	h2 {
+		color: $brandBlue;
+	}
+
+	img {
+		width: 30%;
 	}
 }
 

@@ -16,7 +16,7 @@
 
 .col {
   margin: 8px;
-  padding: 0.6em; }
+  padding: 0.8em; }
 
 [class*='col'] {
   width: 100%;
@@ -504,8 +504,17 @@ body {
     .userInput button:hover {
       cursor: pointer; }
 
+.services .card {
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+  background-color: rgba(71, 100, 136, 0.3); }
 .services h1 {
   color: #353535;
   text-align: center; }
+.services h2 {
+  color: #476488; }
+.services img {
+  width: 30%; }
 
 /*# sourceMappingURL=main.css.map */
