@@ -27,8 +27,15 @@ time, mark, audio, video {
 }
 
 body {
-	font-family: 'Helvetica', 'Roboto', 'sans-serif';
+	font-family:'Roboto', 'sans-serif';
 	font-size: 1em;
+	color: #545454;
+	background: #efefef;
+}
+
+p {
+	font-weight: 300;
+	color: #9e9e9e;
 }
 
 $bodyColor: #353535;
@@ -81,7 +88,9 @@ $brandBlue: #476488;
 	padding: 18px 28px;
 	color: white;
 	border-radius: 4px;
+	border: none;
 	font-size: 0.9em;
+	text-transform: capitalize;
 	&:hover {
 		box-shadow: 10px 10px 22px rgba(0,0,0,0.2);
 		cursor: pointer;
@@ -113,6 +122,7 @@ $brandBlue: #476488;
 	}
 
 	h1 {
+		font-weight: 500;
 		text-align: center;
 		margin-top: 180px;
 		padding: 0 200px;
@@ -151,25 +161,136 @@ $brandBlue: #476488;
 }
 
 .services {
+	padding-bottom: 80px;
+
 	.card {
+		background: white;
 		padding: 20px;
 		border-radius: $borderRadius;
 		text-align: center;
-		background-color: rgba($brandBlue,0.3);
+		box-shadow: 0px 14px 20px -2px rgba(0,0,0,0.1);
+		height: 360px;
 	}
 
 	h1 {
-		color: #353535;
 		text-align: center;
+		padding: 30px 0 20px 0;
 	}
 
 	h2 {
 		color: $brandBlue;
+		font-weight: 400;
 	}
 
 	img {
 		width: 30%;
 	}
+
+	p {
+		text-align: left;
+	}
 }
+
+.testimonial {
+	padding-top: 30px;
+	background: linear-gradient(to right, #4f719a, #476488);
+
+	h1 {
+		color: white;
+		text-align: center;
+		font-weight: 100;
+	}
+
+}
+
+.bx-wrapper {
+	margin: 50px 0 100px 0;
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+
+	h3{
+		color: white;
+		text-align: center;
+	}
+
+	p {
+		color: white;
+		font-weight: 200;
+		font-style: italic;
+	}
+
+	.bx-pager.bx-default-pager a {
+		background: rgba(255,255,255,0.2);
+	}
+
+	.bx-pager.bx-default-pager a.active {
+		background: white;
+	}
+
+	img {
+		margin: 0 auto;
+		width: 120px;
+		height: 120px;
+		border-radius: 60px;
+		box-shadow: 0px 14px 40px -4px rgba(0,0,0,0.3);
+	}
+
+}
+
+.lead {
+	padding: 40px 0;
+
+	input, textarea {
+		height: 50px;
+		font-size: 0.9em;
+		padding-left: 18px;
+		border-radius: $borderRadius;
+		border: none;
+		display: block;
+		width: 70%;
+		margin: 10px auto;
+	}
+
+	h1 {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	p {
+		text-align: center;
+	}
+
+	textarea {
+		height: 200px;
+	}
+
+	.cta {
+		width: 70%;
+		display: block;
+		margin: 30px auto;
+	}
+}
+
+.footer {
+
+	img {
+		width: 40%;
+	}
+
+	background-color: #495057;
+	padding: 20px 0;
+
+	iframe {
+		width: 100%;
+		height: 200px;
+		border-radius: $borderRadius;
+	}
+
+	h4 {
+		color: white;
+	}
+}
+
 
 
